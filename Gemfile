@@ -80,3 +80,4 @@ gem 'holidays'
 # gem 'debugger', group: [:development, :test]
 
 gem 'timecop'
+gem 'devise'
