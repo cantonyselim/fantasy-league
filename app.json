@@ -1,5 +1,6 @@
-{"name": "Rails Fantasy App",
-"description": "Open source fantasy",
-"repository": "https://github.com/cantonyselim/fantasy-league",
-"keywords": ["football, fantasy, rails"]
+{
+  "name": "Rails Fantasy App",
+  "description": "Open source fantasy",
+  "repository": "https://github.com/cantonyselim/fantasy-league",
+  "keywords": "football, fantasy, rails"
 }
