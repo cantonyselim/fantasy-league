@@ -81,3 +81,4 @@ gem 'holidays'
 
 gem 'timecop'
 gem 'devise'
+gem 'rails-erd'
