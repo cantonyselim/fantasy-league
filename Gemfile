@@ -3,9 +3,10 @@ source 'https://rubygems.org'
 ruby '1.9.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
-
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+group :production do
+# Use postgresql as the database for Active Record in production
+gem 'pg'
+end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -46,6 +47,7 @@ end
 
 group :development do
   gem 'rails_layout'
+  gem 'sqlite3'
 end
 
 gem 'rubocop'
